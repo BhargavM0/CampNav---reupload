@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10135FCC2D37789F001A74AF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 10135FCB2D37789F001A74AF /* FirebaseAuth */; };
+		10135FCE2D37789F001A74AF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 10135FCD2D37789F001A74AF /* FirebaseFirestore */; };
+		101D00D62D3B17E2009D817F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 101D00D52D3B17E2009D817F /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		106963192D1F850000B2CC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106963002D1F84FF00B2CC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106963072D1F84FF00B2CC3C;
+			remoteInfo = CampNav;
+		};
+		106963232D1F850000B2CC3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 106963002D1F84FF00B2CC3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 106963072D1F84FF00B2CC3C;
+			remoteInfo = CampNav;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		101D00D52D3B17E2009D817F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		103D00582D485385006637E2 /* Unity-iPhone.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Unity-iPhone.xcodeproj"; path = "/Applications/Unity/Hub/Editor/2022.3.55f1/PlaybackEngines/iOSSupport/Trampoline/Unity-iPhone.xcodeproj"; sourceTree = "<absolute>"; };
+		106963082D1F84FF00B2CC3C /* CampNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CampNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		106963182D1F850000B2CC3C /* CampNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		106963222D1F850000B2CC3C /* CampNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CampNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1069630A2D1F84FF00B2CC3C /* CampNav */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CampNav;
+			sourceTree = "<group>";
+		};
+		1069631B2D1F850000B2CC3C /* CampNavTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CampNavTests;
+			sourceTree = "<group>";
+		};
+		106963252D1F850000B2CC3C /* CampNavUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CampNavUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		106963052D1F84FF00B2CC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10135FCC2D37789F001A74AF /* FirebaseAuth in Frameworks */,
+				10135FCE2D37789F001A74AF /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106963152D1F850000B2CC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1069631F2D1F850000B2CC3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103D005B2D485385006637E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		106962FF2D1F84FF00B2CC3C = {
+			isa = PBXGroup;
+			children = (
+				101D00D52D3B17E2009D817F /* .gitignore */,
+				1069630A2D1F84FF00B2CC3C /* CampNav */,
+				1069631B2D1F850000B2CC3C /* CampNavTests */,
+				106963252D1F850000B2CC3C /* CampNavUITests */,
+				106963092D1F84FF00B2CC3C /* Products */,
+				103D00582D485385006637E2 /* Unity-iPhone.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		106963092D1F84FF00B2CC3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				106963082D1F84FF00B2CC3C /* CampNav.app */,
+				106963182D1F850000B2CC3C /* CampNavTests.xctest */,
+				106963222D1F850000B2CC3C /* CampNavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		106963072D1F84FF00B2CC3C /* CampNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1069632C2D1F850000B2CC3C /* Build configuration list for PBXNativeTarget "CampNav" */;
+			buildPhases = (
+				106963042D1F84FF00B2CC3C /* Sources */,
+				106963052D1F84FF00B2CC3C /* Frameworks */,
+				106963062D1F84FF00B2CC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1069630A2D1F84FF00B2CC3C /* CampNav */,
+			);
+			name = CampNav;
+			packageProductDependencies = (
+				10135FCB2D37789F001A74AF /* FirebaseAuth */,
+				10135FCD2D37789F001A74AF /* FirebaseFirestore */,
+			);
+			productName = CampNav;
+			productReference = 106963082D1F84FF00B2CC3C /* CampNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		106963172D1F850000B2CC3C /* CampNavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1069632F2D1F850000B2CC3C /* Build configuration list for PBXNativeTarget "CampNavTests" */;
+			buildPhases = (
+				106963142D1F850000B2CC3C /* Sources */,
+				106963152D1F850000B2CC3C /* Frameworks */,
+				106963162D1F850000B2CC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1069631A2D1F850000B2CC3C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1069631B2D1F850000B2CC3C /* CampNavTests */,
+			);
+			name = CampNavTests;
+			packageProductDependencies = (
+			);
+			productName = CampNavTests;
+			productReference = 106963182D1F850000B2CC3C /* CampNavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		106963212D1F850000B2CC3C /* CampNavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106963322D1F850000B2CC3C /* Build configuration list for PBXNativeTarget "CampNavUITests" */;
+			buildPhases = (
+				1069631E2D1F850000B2CC3C /* Sources */,
+				1069631F2D1F850000B2CC3C /* Frameworks */,
+				106963202D1F850000B2CC3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106963242D1F850000B2CC3C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				106963252D1F850000B2CC3C /* CampNavUITests */,
+			);
+			name = CampNavUITests;
+			packageProductDependencies = (
+			);
+			productName = CampNavUITests;
+			productReference = 106963222D1F850000B2CC3C /* CampNavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		106963002D1F84FF00B2CC3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					106963072D1F84FF00B2CC3C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					106963172D1F850000B2CC3C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 106963072D1F84FF00B2CC3C;
+					};
+					106963212D1F850000B2CC3C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 106963072D1F84FF00B2CC3C;
+					};
+				};
+			};
+			buildConfigurationList = 106963032D1F84FF00B2CC3C /* Build configuration list for PBXProject "CampNav" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 106962FF2D1F84FF00B2CC3C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				10135FCA2D37789F001A74AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 106963092D1F84FF00B2CC3C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 103D005B2D485385006637E2 /* Products */;
+					ProjectRef = 103D00582D485385006637E2 /* Unity-iPhone.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				106963072D1F84FF00B2CC3C /* CampNav */,
+				106963172D1F850000B2CC3C /* CampNavTests */,
+				106963212D1F850000B2CC3C /* CampNavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		106963062D1F84FF00B2CC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101D00D62D3B17E2009D817F /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106963162D1F850000B2CC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106963202D1F850000B2CC3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		106963042D1F84FF00B2CC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		106963142D1F850000B2CC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1069631E2D1F850000B2CC3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1069631A2D1F850000B2CC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 106963072D1F84FF00B2CC3C /* CampNav */;
+			targetProxy = 106963192D1F850000B2CC3C /* PBXContainerItemProxy */;
+		};
+		106963242D1F850000B2CC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 106963072D1F84FF00B2CC3C /* CampNav */;
+			targetProxy = 106963232D1F850000B2CC3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1069632A2D1F850000B2CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1069632B2D1F850000B2CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1069632D2D1F850000B2CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampNav/Preview Content\"";
+				DEVELOPMENT_TEAM = T225SG5QYV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.campnav.CampNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1069632E2D1F850000B2CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CampNav/Preview Content\"";
+				DEVELOPMENT_TEAM = T225SG5QYV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.campnav.CampNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		106963302D1F850000B2CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T225SG5QYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.campnav.CampNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampNav.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampNav";
+			};
+			name = Debug;
+		};
+		106963312D1F850000B2CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T225SG5QYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.campnav.CampNavTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CampNav.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CampNav";
+			};
+			name = Release;
+		};
+		106963332D1F850000B2CC3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T225SG5QYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.campnav.CampNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampNav;
+			};
+			name = Debug;
+		};
+		106963342D1F850000B2CC3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T225SG5QYV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.campnav.CampNavUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CampNav;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106963032D1F84FF00B2CC3C /* Build configuration list for PBXProject "CampNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1069632A2D1F850000B2CC3C /* Debug */,
+				1069632B2D1F850000B2CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1069632C2D1F850000B2CC3C /* Build configuration list for PBXNativeTarget "CampNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1069632D2D1F850000B2CC3C /* Debug */,
+				1069632E2D1F850000B2CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1069632F2D1F850000B2CC3C /* Build configuration list for PBXNativeTarget "CampNavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106963302D1F850000B2CC3C /* Debug */,
+				106963312D1F850000B2CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		106963322D1F850000B2CC3C /* Build configuration list for PBXNativeTarget "CampNavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106963332D1F850000B2CC3C /* Debug */,
+				106963342D1F850000B2CC3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		10135FCA2D37789F001A74AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		10135FCB2D37789F001A74AF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10135FCA2D37789F001A74AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		10135FCD2D37789F001A74AF /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 10135FCA2D37789F001A74AF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 106963002D1F84FF00B2CC3C /* Project object */;
+}
